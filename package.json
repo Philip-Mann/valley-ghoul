@@ -1,7 +1,7 @@
 {
-  "name": "react-node-template",
+  "name": "valley-ghoul",
   "version": "1.0.0",
-  "description": "a starter react-node template for Philip",
+  "description": "an e-commerce site for valley ghoul",
   "main": "server.js",
   "scripts": {
     "build": "cd react-ui/ && npm install && npm run build",
