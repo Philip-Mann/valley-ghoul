@@ -1,7 +1,20 @@
+// its all in CSS :)
+import './landing.css'; 
+import ValleyGhoul from './components/ValleyGhoul';
+
 const Landing = () => {
 
     return (
-        <h1>Valley Ghoul</h1>
+        <>
+        <div className="landing">
+            <div className="title">
+                <ValleyGhoul />
+            </div>
+            <div className="enter">
+                
+            </div>
+        </div>
+        </>
     )
 }
 

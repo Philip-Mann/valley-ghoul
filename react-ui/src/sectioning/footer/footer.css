@@ -1,7 +1,8 @@
 footer {
+    border: 1px solid blue;
     align-items: center;
     display: flex;
-    height: 4rem;
+    height: 3rem;
     flex-wrap: wrap;
     justify-content: space-around;
 }

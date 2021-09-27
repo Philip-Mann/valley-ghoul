@@ -4,12 +4,21 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    color: white;
+}
+
+body {
+    background: 
+        url('https://images.unsplash.com/photo-1604005950757-5d2c66050f62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1587&q=80')
+        no-repeat center fixed
+    ;
+    background-size: cover;
 }
   
 a {
     font-weight: 900;
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
   
 a:visited {
