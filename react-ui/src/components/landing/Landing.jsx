@@ -1,19 +1,14 @@
 // its all in CSS :)
 import './landing.css'; 
-import ValleyGhoul from './components/ValleyGhoul';
+import Logo from './components/logo/Logo';
+import Products from '../products/Products';
 
 const Landing = () => {
 
     return (
         <>
-        <div className="landing">
-            <div className="title">
-                <ValleyGhoul />
-            </div>
-            <div className="enter">
-                
-            </div>
-        </div>
+            <Logo />
+            <Products />
         </>
     )
 }

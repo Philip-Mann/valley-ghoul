@@ -1,27 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
-.landing {
-    height: 80vh;
-}
-
-.title {
-    align-content: flex-start;
+.landing-container {
+    /* border: 1px solid red; */
+    /* background-image: url('https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80');
+    background-repeat: no-repeat;
+    background-position: center -445px; 
+    background-attachment: fixed;
+    position: relative;
+    height: 420px;
     display: flex;
-    flex-direction: column;
-}
-
-.title p {
-    color: #9A2B1B;
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 80px;
-    letter-spacing: 6px;
-    text-align: center;
-    text-shadow: 1px 1px 2px #f8a73f;
-}
-
-
-@media only screen and (max-width: 600px) {
-    .title p {
-        font-size: 30px;
-    }
+    justify-content: center;
+    align-items: center; */
 }
