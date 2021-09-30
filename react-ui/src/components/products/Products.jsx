@@ -11,6 +11,7 @@ const Products = () => {
     return (
         <div className="product-container">
             {isLoading ? <h1>Loading...</h1> : data?.map(product => 
+            
                 <div className="product-card">
                     <div className="product-img">
                         <img src={product.product_image} alt={product.product_name} />
@@ -20,7 +21,6 @@ const Products = () => {
                             id="product-button"
                             to={`/products/${product.product_id}`}
                         >
-                            {/* <p>{product.product_name}</p> */}
                             {product.product_name}
                         </Link>
                     </div>
