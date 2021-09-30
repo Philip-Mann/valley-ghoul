@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const session = require('express-session');
 const { PORT } = process.env;
+const { Products } = require('./models')
 
 
 // changed from app to server
@@ -28,10 +29,10 @@ server.use(express.static(path.resolve(__dirname + '/react-ui/build')));
 server.use(express.json());
 
 // to see if server is running
-server.get('/heartbeat', (req, res) => {
-    res.json({
-        "is": "working"
-    });
+server.get('/api/products', async (req, res) => {
+    const products = await Products.findAll();
+    res.json(products);
+    console.log(products);
 });
 
 // catching all URL errors and redirecting to home page in build file

@@ -3,13 +3,14 @@
 .logo-container {
     display: flex;
     justify-content: center;
+    margin: 1rem;
     /* border: 1px solid red; */
 }
 
 .logo-outer {
     border: 10px solid white;
     height: 280px;
-    width: 280px;
+    width: 600px;
     padding: 2rem;
 }
 
@@ -30,7 +31,7 @@
 }
 
 .logo-background hr {
-    width: 80%;
+    width: 60%;
     height: 5px;
     background-color: white;
 }

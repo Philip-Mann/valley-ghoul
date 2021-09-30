@@ -12,7 +12,6 @@ body {
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
     background-position: 49% 10%; 
     background-attachment: fixed;
-    overflow: hidden;
     background-size: cover;
 }
   
@@ -38,9 +37,4 @@ a:active {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-}
-
-.main-container {
-    height: 75vh;
-    margin: 1rem;
 }
