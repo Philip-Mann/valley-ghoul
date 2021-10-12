@@ -75,7 +75,7 @@ module.exports = {
         product_price: '20.00',
         product_colors: 'Pink',
         product_quantity: '5',
-        product_image: 'https://imgur.com/oux7pgI.jpg',
+        product_image: 'https://i.imgur.com/T9BBWmV.jpg',
         product_description: 'A pair of cute poptart hair clips',
         createdAt: new Date(),
         updatedAt: new Date()

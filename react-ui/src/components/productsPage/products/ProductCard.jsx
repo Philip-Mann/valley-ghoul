@@ -22,9 +22,6 @@ const Products = ({ productsData, searchQuery }) => {
         }
     };
 
-
-
-
     return (
         <div className="product-container">
             {productIncluded() < 1 ? <h1 className="all-out">Sorry, we're all out of stuff (❍ᴥ❍ʋ)</h1> : ''}
