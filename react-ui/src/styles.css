@@ -7,17 +7,21 @@
 }
 
 body {
-    background-image: url('https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80');
+    background-image: url('https://images.unsplash.com/photo-1506056820413-f8fa4de15de6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80');
     background-repeat: no-repeat;
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
-    background-position: 49% 10%; 
     background-attachment: fixed;
     background-size: cover;
+
 }
   
 a {
     text-decoration: none;
     color: white;
+}
+
+button:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.9);
 }
   
 a:visited {

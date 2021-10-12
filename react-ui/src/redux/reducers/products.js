@@ -16,8 +16,6 @@ export const productsSlice = createSlice({
 
 export const { getProductsData } = productsSlice.actions;
 
-console.log(productsSlice)
-
 export const productsData = (state) => state.productsApi;
 
 export default productsSlice.reducer;

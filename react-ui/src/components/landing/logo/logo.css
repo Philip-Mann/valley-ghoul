@@ -4,22 +4,23 @@
     display: flex;
     justify-content: center;
     margin: 1rem;
-    /* border: 1px solid red; */
 }
 
 .logo-outer {
     border: 10px solid white;
+    box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.9);
     height: 280px;
-    width: 600px;
     padding: 2rem;
+    width: 600px;
 }
 
 .logo-background {
+    align-items: center;
     border: 10px solid white;
-    height: 100%;
+    box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.9);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
     justify-content: space-around;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .logo-background hr {
-    width: 60%;
-    height: 5px;
     background-color: white;
+    height: 5px;
+    width: 60%;
 }

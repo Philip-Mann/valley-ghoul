@@ -1,14 +1,15 @@
-// its all in CSS :)
 import './landing.css'; 
-import Logo from './components/logo/Logo';
-import Products from '../products/Products';
+import Logo from '../../components/landing/logo/Logo';
+
+
 
 const Landing = () => {
 
     return (
         <>
+        <div className="landing-container">
             <Logo />
-            <Products />
+        </div>
         </>
     )
 }

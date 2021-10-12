@@ -1,6 +1,8 @@
 import { Route } from "react-router-dom";
-import About from "../components/about/About"
-import Landing from "../components/landing/Landing";
+import About from "./about/About"
+import Cart from "./cart/Cart";
+import Landing from "./landing/Landing";
+import ProductsPage from "./products/ProductsPage";
 
 
 const Routes = () => {
@@ -14,8 +16,18 @@ const Routes = () => {
             />
             <Route
                 exact
+                path="/products"
+                render={() => <ProductsPage />}
+            />
+            <Route
+                exact
                 path="/about"
                 render={() => <About />}
+            />
+            <Route
+                exact
+                path="/cart"
+                render={() => <Cart />}
             />
         </>
     )
