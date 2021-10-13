@@ -36,7 +36,7 @@ const Products = ({ productsData, searchQuery }) => {
                     </div>
                     <div className="product-information">
                         <p>{product.product_name}</p>
-                        <p>{product.product_price}</p>
+                        <p>${product.product_price}</p>
                     </div>
                     <AddToCart product={product} />
                 </div>

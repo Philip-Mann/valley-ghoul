@@ -15,7 +15,7 @@ const CartCard = ({ cart }) => {
                 </div>
                 <div className="product-information">
                     <p>{item.product_description}</p>
-                    <p>{item.product_price}</p>
+                    <p>${item.product_price}</p>
                 </div>
                 <RemoveFromCart item={item}/>
             </div>

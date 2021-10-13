@@ -6,7 +6,7 @@ module.exports = {
       {
         product_name: 'Bloody Screams',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Black',
         product_quantity: '5',
         product_image: 'https://imgur.com/1InCDIv.jpg',
@@ -17,7 +17,7 @@ module.exports = {
       {
         product_name: 'Hearts Noir',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Black',
         product_quantity: '5',
         product_image: 'https://imgur.com/nn80t7A.jpg',
@@ -28,7 +28,7 @@ module.exports = {
       {
         product_name: 'Pink Planchettes',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Pink',
         product_quantity: '5',
         product_image: 'https://imgur.com/cZxmdJK.jpg',
@@ -39,7 +39,7 @@ module.exports = {
       {
         product_name: 'White Planchettes',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'White',
         product_quantity: '5',
         product_image: 'https://imgur.com/oZEmMEL.jpg',
@@ -50,7 +50,7 @@ module.exports = {
       {
         product_name: 'Pumpkin Pies',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Orange',
         product_quantity: '5',
         product_image: 'https://imgur.com/KuvaTPT.jpg',
@@ -61,7 +61,7 @@ module.exports = {
       {
         product_name: 'Opal Butterflies',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Opal',
         product_quantity: '5',
         product_image: 'https://imgur.com/oux7pgI.jpg',
@@ -72,7 +72,7 @@ module.exports = {
       {
         product_name: 'Poptart Clips',
         product_type: 'Hair Clip',
-        product_price: '20.00',
+        product_price: 20.00,
         product_colors: 'Pink',
         product_quantity: '5',
         product_image: 'https://i.imgur.com/T9BBWmV.jpg',
@@ -83,7 +83,7 @@ module.exports = {
       {
         product_name: 'Hearts Noir Cut Out',
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Black',
         product_quantity: '5',
         product_image: 'https://imgur.com/LvEtVsO.jpg',
@@ -94,7 +94,7 @@ module.exports = {
       {
         product_name: `Purple Night's Sky Hearts`,
         product_type: 'Earring',
-        product_price: '15.00',
+        product_price: 15.00,
         product_colors: 'Purple',
         product_quantity: '5',
         product_image: 'https://imgur.com/2QTd6hM.jpg',

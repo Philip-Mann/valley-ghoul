@@ -15,7 +15,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       product_price: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       product_colors: {
         type: Sequelize.STRING
