@@ -1,6 +1,6 @@
 import './cart.css';
 import { connect } from 'react-redux';
-import RemoveFromCart from './removeFromCart/RemoveFromCart';
+// import RemoveFromCart from './removeFromCart/RemoveFromCart';
 
 const CartCard = ({ cart }) => {
 
@@ -17,7 +17,7 @@ const CartCard = ({ cart }) => {
                     <p>{item.product_description}</p>
                     <p>${item.product_price}</p>
                 </div>
-                <RemoveFromCart item={item}/>
+                {/* <RemoveFromCart item={item}/> */}
             </div>
             )}
         </div>
