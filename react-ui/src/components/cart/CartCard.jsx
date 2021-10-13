@@ -8,6 +8,7 @@ const CartCard = ({ cart }) => {
     return (
         <>
         <div className="product-container">
+        {cart.cartItems < 1 ? '' : <h1>Number of Items: {cart.cartItems.length}</h1>}
             {cart.cartItems.map(item => 
             <div className="product" id="product-button" key={item.id}>
                 <div className="product-img">
