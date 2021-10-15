@@ -1,34 +1,24 @@
 import './products.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import AddToCart from '../addToCart/AddToCart';
 
 const Products = ({ productsData, searchQuery }) => {
 
     const productIncluded = () => {
-        if (searchQuery === '') {
+        if(searchQuery === '') {
             return productsData;
         } else {
             return productsData.filter(product => product.product_name.toLowerCase().includes(searchQuery.toLowerCase()));
         }
-    };
-
-    const [isClicked, setIsClicked] = useState(false);
-
-    const showMoreInfo = () => {
-        if (isClicked === false) {
-            setIsClicked(true);
-        } if (isClicked === true) {
-            setIsClicked(false);
-        }
-    };
+    }
 
     return (
         <div className="product-container">
             {productIncluded() < 1 ? <h1 className="all-out">Sorry, we're all out of stuff (❍ᴥ❍ʋ)</h1> : ''}
             {productIncluded().map(product => 
                 <div
-                    id="product-button"
-                    onClick={showMoreInfo}
+                    className="product-card"
+                    id="product-card"
                     key={product.id}
                 >
                     <div className="product-img">
@@ -36,6 +26,7 @@ const Products = ({ productsData, searchQuery }) => {
                     </div>
                     <div className="product-information">
                         <p>{product.product_name}</p>
+                        <p>{product.product_description}</p>
                         <p>${product.product_price}</p>
                     </div>
                     <AddToCart product={product} />

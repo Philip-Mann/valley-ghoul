@@ -7,6 +7,7 @@ import { productsData } from "../../redux/reducers/products";
 import { useSelector } from "react-redux";
 // using state to capture form data in SearchBar from this(parent) component
 import { useState } from "react";
+import './productsPage.css';
 
 const ProductsPage = () => {
 
@@ -24,18 +25,20 @@ const ProductsPage = () => {
 
     return (
         <>
-        {isLoading ? <h1>Loading...</h1> : 
-            <SearchBar 
-                searchQuery={searchQuery}
-                handleSearchQuery={handleSearchQuery}
-            />
-        }
-        {isLoading ? <h1>Loading...</h1> : 
-            <ProductCard 
-                productsData={data} 
-                searchQuery={searchQuery}
-            />
-        }
+        <div className="products-page">
+            {isLoading ? <h1>Loading...</h1> : 
+                <SearchBar 
+                    searchQuery={searchQuery}
+                    handleSearchQuery={handleSearchQuery}
+                />
+            }
+            {isLoading ? <h1>Loading...</h1> : 
+                <ProductCard 
+                    productsData={data} 
+                    searchQuery={searchQuery}
+                />
+            }
+        </div>
         </>
     )
 }

@@ -4,9 +4,11 @@ import Routes from '../../routes/Routes'
 const Main = () => {
 
     return(
-        <Switch>
-            <Routes />
-        </Switch>
+        <main>
+            <Switch>
+                <Routes />
+            </Switch>
+        </main>
     )
 }
 
