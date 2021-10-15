@@ -11,8 +11,11 @@ body {
     background-repeat: no-repeat;
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
     background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 60%;
+    background-size: contain;
+    /* background-position: 50% 60%; */
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
   
 a {
